@@ -1,0 +1,73 @@
+
+
+
+
+header .nav-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav-bar input {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+header .nav-bar button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+header .nav-bar button:hover {
+    background-color: #777;
+}
+
+
+
+main.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    padding: 15px;
+}
+
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.video-info h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.video-info p {
+    color: #666;
+    margin: 5px 0 0;
+}

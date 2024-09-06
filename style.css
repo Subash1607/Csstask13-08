@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 40px;
+    background-color: rgb(30, 184, 160);
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.container{
+    margin: 6px;
+    background-color: white;
+    
+}
+.container2{
+    margin: 6px;
+    background-color: white;
+    
+}
+.first{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 2px black;
+}
+.second{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+.third{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+.four{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
+.five{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+.six{ 
+
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+
+
+}
+img{
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+}
+.text{
+    font-size: 18px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400px;
+}
+
